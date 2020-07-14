@@ -191,3 +191,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.dex2oat-filter=speed \
     dalvik.vm.image-dex2oat-filter=speed
 
+# Fast App Launch
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.device_config.runtime_native.usap_pool_enabled=true
+
