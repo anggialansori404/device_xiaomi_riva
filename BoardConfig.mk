@@ -132,9 +132,6 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/msm8917
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
-# Lineage Hardware
-BOARD_HARDWARE_CLASS += $(DEVICE_PATH)/lineagehw
-
 # Tap2Wake
 
 TARGET_TAP_TO_WAKE_NODE := "/proc/gesture/onoff"
