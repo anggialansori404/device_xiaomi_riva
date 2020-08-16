@@ -22,8 +22,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
 # Inherit some common RevengeOS stuff
 $(call inherit-product, vendor/revengeos/config/common.mk)
-
 TARGET_BOOT_ANIMATION_RES := 720
+REVENGEOS_BUILDTYPE := OFFICIAL
 
 # Inherit from riva device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
